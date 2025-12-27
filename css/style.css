@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', monospace;
+  background: #0b0b0f;
+  color: #e0e0ff;
+  background-image: repeating-linear-gradient(
+    rgba(255,255,255,0.02),
+    rgba(255,255,255,0.02) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+}
+
+.site-header {
+  text-align: center;
+  padding: 30px 10px;
+  border-bottom: 3px solid #6c63ff;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #9d9dff;
+}
+
+.subtitle {
+  font-size: 10px;
+  color: #aaa;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #111;
+  border-bottom: 2px solid #444;
+}
+
+.menu a {
+  padding: 10px 15px;
+  color: #7fffd4;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.menu a:hover {
+  background: #222;
+  color: #fff;
+}
+
+.content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.box {
+  background: #14141f;
+  border: 2px solid #6c63ff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box h2 {
+  margin-top: 0;
+  font-size: 14px;
+  color: #7fffd4;
+}
+
+.retro-list {
+  list-style: none;
+  padding: 0;
+}
+
+.retro-list li {
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 9px;
+  padding: 20px;
+  border-top: 2px solid #444;
+  color: #777;
+}
