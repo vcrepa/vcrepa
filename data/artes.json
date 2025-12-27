@@ -1,0 +1,14 @@
+[
+  {
+    "thumb": "assets/artes/arte1.jpg",
+    "full": "assets/artes/arte1.jpg",
+    "titulo": "Arte cyberpunk",
+    "descricao": "Ilustração digital inspirada em games futuristas"
+  },
+  {
+    "thumb": "assets/artes/arte2.png",
+    "full": "assets/artes/arte2.png",
+    "titulo": "Pixel retrô",
+    "descricao": "Estudo de pixel art"
+  }
+]
