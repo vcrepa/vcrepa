@@ -176,7 +176,7 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: 999;
-  opacity: 0.35; /* controle geral da força */
+  opacity: 1; /* controle geral da força */
 }
 
 #crt-overlay::before {
@@ -237,4 +237,5 @@ body.crt-on .crt-content {
       rgba(0,0,255,0.03)
     );
   background-size: 3px 100%;
+
 }
